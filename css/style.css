@@ -1,0 +1,222 @@
+#app-bar-compact {
+  position: absolute;
+  width: 375px;
+  height: 92px;
+  left: 0px;
+  top: 0px;
+  border: 1px solid #ccc;
+  border: none;
+}
+
+#toolbar {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 44px;
+  bottom: 0px;
+  border: none;
+}
+
+#div-button {
+  width: 40px;
+  height: 40px;
+  left: 311px;
+  top: calc(50% - 40px/2);
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  border: none;
+}
+
+#icon-button-button {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+#union {
+  height: 15px;
+  width: 18px;
+  border-radius: 0px;
+  display: grid;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+
+#div-logo {
+  width: 100px;
+  height: 40px;
+  left: 12px;
+  top: 3px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border: none;
+}
+
+#headline {
+  width: 375px;
+  height: 604px;
+  top: 92px;
+  position: absolute;
+}
+
+#div-primary-text-1 {
+  height: 150px;
+  width: 327px;
+  left: 24px;
+  top: 110px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#div-primary-text-2 {
+  height: 146px;
+  width: 327px;
+  left: 24px;
+  top: 276px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#div-social-media {
+  height: 24px;
+  width: 117px;
+  left: 24px;
+  top: 434px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#div-social-media-icons {
+  height: 20px;
+  width: 170px;
+  left: 24px;
+  top: 470px;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#div-twitter {
+  height: 19.962478637695312px;
+  width: 19.985925674438477px;
+  left: 24px;
+  top: 470px;
+}
+
+#div-linkedin {
+  height: 20.000062942504883px;
+  width: 20.00014877319336px;
+  left: 63px;
+  top: 470px;
+}
+
+#div-social-media-icon-3 {
+  height: 16px;
+  width: 20px;
+  left: 103px;
+  top: 472px;
+}
+
+#div-github {
+  height: 20px;
+  width: 18px;
+  left: 143px;
+  top: 470px;
+}
+
+#div-social-media-icon-5 {
+  height: 20px;
+  width: 14.166671752929688px;
+  left: 180px;
+  top: 470px;
+}
+
+#header-shapes-mobile {
+  position: absolute;
+  top: 104px;
+}
+
+.primary-text-1 {
+  width: 327px;
+  height: 150px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+  align-items: center;
+}
+
+.primary-text-2 {
+  width: 327px;
+  height: 146px;
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
+  color: #344563;
+}
+
+.social-media-p {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  font-style: normal;
+  color: #7F8CFF;
+}
+
+.vector {
+  height: 0px;
+  width: 16px;
+  border-radius: 1px;
+  display: block;
+  border: 1px solid #6070FF;
+  background: #6070FF;
+}
+
+.my-logo {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #ccc;
+  border: none;
+  color: #6070FF;
+}
