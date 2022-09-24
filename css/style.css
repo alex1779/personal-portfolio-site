@@ -1,7 +1,5 @@
 * {
-    box-sizing: border-box;
-    margin: 0px;
-    padding: 0px;
+  box-sizing: border-box;
 }
 
 html {
@@ -12,13 +10,12 @@ body {
   margin: 0;
   width: 100%;
   aspect-ratio: 375 / 5410;
-  overflow-x:hidden!important;
+  overflow-x: hidden !important;
   height: 100%;
   min-height: 1em;
-  aspect-ratio: 375 / 5410;
 }
 
-ul{
+ul {
   list-style-type: none;
 }
 
@@ -33,7 +30,7 @@ ul{
   font-size: 100%;
   margin: 0;
   box-sizing: border-box;
-  overflow-x:hidden;
+  overflow-x: hidden;
   background: #e5e5e5;
 }
 
@@ -41,9 +38,7 @@ ul{
   width: 100%;
   aspect-ratio: 375 / 92;
   z-index: 3;
-  background-size: cover;
-  background-position: center;
-  font-size: 100%
+  font-size: 100%;
 }
 
 #toolbar {
@@ -101,7 +96,7 @@ ul{
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: 100%
+  font-size: 100%;
 }
 
 #div-logo-a {
@@ -176,7 +171,7 @@ ul{
   width: 45.333333%;
   aspect-ratio: 170.17 / 20;
   left: 6.4%;
-  top: 10.388170%;
+  top: 10.38817%;
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -239,9 +234,7 @@ ul{
   width: 100%;
   aspect-ratio: 375 / 718;
   position: absolute;
-  left: 0px;
-  top: 0px;
-  background: #ffffff;
+  background: #fff;
   border-bottom-left-radius: 20vw;
 }
 
