@@ -24,7 +24,6 @@ ul {
   aspect-ratio: 375 / 5410;
   position: absolute;
   display: flex;
-  background-color: transparent;
   flex-direction: column;
   align-items: center;
   font-size: 100%;
