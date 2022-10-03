@@ -544,7 +544,7 @@ ul {
   position: relative;
   height: 100%;
   aspect-ratio: 227 / 24;
-  display: flex;
+  
   align-items: flex-start;
   justify-content: space-between;
 }
