@@ -611,15 +611,18 @@ ul {
 }
 
 #block-apart-action-button:enabled {
-  background: transparent;
+  background: #fff;
+  color: #6070ff;
 }
 
 #block-apart-action-button:hover {
-  background: lightgray;
+  background: #6070ff;
+  color: #fff;
 }
 
 #block-apart-action-button:active {
-  background: lightgreen;
+  background: #2230d2;
+  color: #fff;
 }
 
 /* About Myself */
@@ -894,4 +897,177 @@ ul {
   top: -29%;
   left: 25%;
   position: relative;
+}
+
+/* contact form */
+#contact-form-base {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 375 / 779;
+  left: 0%;
+  top: 85.600739%;
+  background: #6070ff;
+  border-top-left-radius: 21vw;
+}
+
+#contact-form-shapes {
+  position: absolute;
+  width: 70.666667%;
+  aspect-ratio: 265 / 709;
+  left: 35%;
+  top: 85.988909%;
+}
+
+#contact-form-data {
+  position: absolute;
+  width: 100%;
+  aspect-ratio: 375 / 779;
+  left: 0%;
+  top: 85.600739%;
+  background: transparent;
+}
+
+#contact-form-data-div {
+  position: absolute;
+  width: 213.6%;
+  aspect-ratio: 801 / 56;
+  left: -56.8%;
+  top: 13.22208%;
+  display: grid;
+  align-items: center;
+  text-align: center;
+  flex-grow: none;
+}
+
+#contact-form-data-h1 {
+  position: absolute;
+  width: 213.6%;
+  aspect-ratio: 801 / 56;
+  left: -56.8%;
+  top: 8.6%;
+  height: auto;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 10.7vw;
+  color: #fff;
+  text-align: center;
+}
+
+#contact-form-data-h6 {
+  position: absolute;
+  width: 87.2%;
+  aspect-ratio: 327 / 102;
+  left: 6.4%;
+  top: 21.95122%;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 5.3vw;
+  line-height: 7.5vw;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+}
+
+#contact-form-data-button {
+  position: absolute;
+  width: 37.333333%;
+  aspect-ratio: 140 / 48;
+  left: 6.4%;
+  top: 88.061617%;
+  background: white;
+  border-radius: 2vw;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 4.8vw;
+  line-height: 7.5vw;
+  color: #6070ff;
+  text-align: center;
+  margin: auto;
+  border: none;
+}
+
+#contact-form-data-button:enabled {
+  background: #fff;
+  color: #6070ff;
+}
+
+#contact-form-data-button:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+#contact-form-data-button:active {
+  background: #2230d2;
+  color: #fff;
+}
+
+#shape {
+  position: absolute;
+  width: 35.733333%;
+  aspect-ratio: 134 / 5;
+  left: 32%;
+  top: 98.331194%;
+  border-radius: 1vw;
+  background: #0d151e;
+}
+
+#survey-form-name-input {
+  position: absolute;
+  width: 87.2%;
+  aspect-ratio: 327 / 48;
+  left: 6.4%;
+  top: 46.213094%;
+  background: white;
+  border-radius: 2vw;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.6vw;
+  line-height: 7.5vw;
+  color: #172b4d;
+  padding-left: 4vw;
+  border: none;
+}
+
+#survey-form-email-input {
+  position: absolute;
+  width: 87.2%;
+  aspect-ratio: 327 / 48;
+  left: 6.4%;
+  top: 54.942234%;
+  background: white;
+  border-radius: 2vw;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.6vw;
+  line-height: 7.5vw;
+  color: #172b4d;
+  padding-left: 4vw;
+  border: none;
+}
+
+#survey-form-message-input {
+  position: absolute;
+  width: 87.2%;
+  aspect-ratio: 327 / 170;
+  left: 6.4%;
+  top: 63.414634%;
+  background: white;
+  border-radius: 2vw;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4vw;
+  line-height: 7.5vw;
+  color: #172b4d;
+  padding-left: 4vw;
+  border: none;
+}
+
+::placeholder {
+  color: #b3bac5;
 }
