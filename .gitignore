@@ -2,3 +2,5 @@ pendings.txt
 node_modules/
 css/images/
 git.txt
+package.json
+package-lock.json
