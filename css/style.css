@@ -1068,3 +1068,6 @@ ul {
   border: none;
 }
 
+::placeholder {
+  color: #b3bac5;
+}
