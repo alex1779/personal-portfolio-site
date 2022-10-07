@@ -1612,8 +1612,6 @@ ul {
     display: flex;
   }
 
-
-
   /* Works section */
   #works-section {
     position: absolute;
@@ -2232,8 +2230,6 @@ ul {
     color: #fff;
   }
 
-
-
   /* About Myself */
   #about-myself-base {
     position: absolute;
@@ -2561,8 +2557,6 @@ ul {
     left: 6%;
     position: relative;
   }
-
-
 
   /* contact form */
   #contact-form-base {
