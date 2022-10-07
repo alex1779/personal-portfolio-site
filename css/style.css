@@ -124,6 +124,7 @@ ul {
   font-weight: 700;
   font-size: 5vw;
   line-height: 112%;
+  text-decoration: none;
 }
 
 #my-logo {
@@ -1372,10 +1373,6 @@ ul {
     box-sizing: border-box;
     overflow-x: hidden;
     background: #e5e5e5;
-    background: transparent;
-    background-image: url("images/desktop.jpg");
-    background-size: cover;
-    background-position: center;
   }
 
   #app-bar-compact {
@@ -1407,6 +1404,7 @@ ul {
     font-weight: 700;
     font-size: 1.25vw;
     line-height: 112%;
+    text-decoration: none;
   }
 
   #icon-button-button:disabled {
@@ -1525,21 +1523,16 @@ ul {
     aspect-ratio: 117 / 24;
     left: 18.055556%;
     top: 63%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
   }
 
   .social-media-p {
     height: 100%;
-    width: 100%;
+    aspect-ratio: 117 / 24;
     font-weight: 500;
-    font-size: 1.09vw;
+    font-size: 1.07vw;
     line-height: 2vw;
     text-align: left;
     color: #7f8cff;
-    color: black;
     margin: 0;
   }
 
@@ -1619,9 +1612,6 @@ ul {
     aspect-ratio: 1440 / 2694;
     left: 0%;
     top: 17.892683%;
-    background-image: url("images/works-mobile.png");
-    background-size: cover;
-    background-position: center;
     justify-content: center;
     display: grid;
     align-items: start;
@@ -2331,10 +2321,6 @@ ul {
     aspect-ratio: 170 / 20;
     left: 0%;
     top: 12%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
   }
 
   #social-media-icons-li {
