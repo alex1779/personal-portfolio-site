@@ -453,18 +453,6 @@ ul {
   transform: scale(1.12);
 }
 
-#snapshot-portfolio-2:hover {
-  transform: scale(1.12);
-}
-
-#snapshot-portfolio-3:hover {
-  transform: scale(1.12);
-}
-
-#snapshot-portfolio-4:hover {
-  transform: scale(1.12);
-}
-
 #block-apart1 {
   width: 100%;
   aspect-ratio: 295 / 288;
@@ -1762,17 +1750,7 @@ ul {
     transform: scale(1.12);
   }
 
-  #snapshot-portfolio-2:hover {
 
-  }
-
-  #snapshot-portfolio-3:hover {
-
-  }
-
-  #snapshot-portfolio-4:hover {
-
-  }
 
   #block-apart-primary-text-1 {
     position: absolute;
