@@ -1979,7 +1979,6 @@ ul {
     font-size: 1.11vw;
     line-height: 1.7vw;
     color: #344563;
-    color: black;
     content: "A daily selection of privately personalized reads; no accounts or sign-ups required.";
   }
 
@@ -2109,7 +2108,6 @@ ul {
     justify-content: center;
     border-radius: 0.5vw;
     background: #ebebff;
-    background: transparent;
     text-align: center;
   }
 
@@ -2137,7 +2135,6 @@ ul {
     justify-content: center;
     border-radius: 0.5vw;
     background: #ebebff;
-    background: transparent;
     text-align: center;
   }
 
