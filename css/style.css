@@ -1739,36 +1739,22 @@ ul {
     align-items: center;
   }
 
-  #block-apart-primary-text-1-project-title {
-    position: absolute;
-    width: 100%;
-    aspect-ratio: 496 / 46;
-    top: -20%;
-    left: 0.5%;
-  }
-
+  #block-apart-primary-text-1-project-title,
   #block-apart-primary-text-1-project-title-2 {
     position: absolute;
     width: 100%;
     aspect-ratio: 496 / 46;
     top: -20%;
-    left: -0.5%;
-  }
-
-  #block-apart-primary-text-1-project-title-3 {
-    position: absolute;
-    width: 100%;
-    aspect-ratio: 496 / 46;
-    top: -15%;
     left: 0.5%;
   }
 
+  #block-apart-primary-text-1-project-title-3,
   #block-apart-primary-text-1-project-title-4 {
     position: absolute;
     width: 100%;
     aspect-ratio: 496 / 46;
     top: -15%;
-    left: -0.5%;
+    left: 0.5%;
   }
 
   .block-apart-primary-text {
