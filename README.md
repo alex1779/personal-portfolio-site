@@ -11,7 +11,7 @@
 
 ## Built With
 
-- HTML, CSS, GIT
+- HTML, CSS, GIT, JAVASCRIPT
 
 
 ## Authors
