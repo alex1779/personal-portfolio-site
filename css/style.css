@@ -189,7 +189,7 @@ ul {
 
 #div-social-media-icons {
   width: 50%;
-  aspect-ratio: 170.17 / 20;
+  aspect-ratio: 170 / 20;
   left: 2.2%;
   top: 10.25%;
   position: absolute;
@@ -205,7 +205,7 @@ ul {
   left: 6%;
   top: 10.25%;
   width: 46%;
-  aspect-ratio: 170.17 / 20;
+  aspect-ratio: 170 / 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -217,7 +217,7 @@ ul {
   left: 2%;
   top: -2%;
   width: 30%;
-  aspect-ratio: 170.17 / 20;
+  aspect-ratio: 170 / 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -245,7 +245,7 @@ ul {
 
 #header-shapes-mobile {
   width: 124%;
-  aspect-ratio: 462 / 587.15;
+  aspect-ratio: 462 / 587;
   top: 1.922365%;
   position: absolute;
   z-index: 10;
@@ -558,32 +558,6 @@ ul {
   color: #344563;
   font-size: 3.3vw;
   line-height: 0vw;
-}
-
-#works-section-1-role-text::after,
-#works-section-2-role-text::after,
-#works-section-3-role-text::after,
-#works-section-4-role-text::after {
-  color: #7a869a;
-  font-size: 3.3vw;
-  line-height: 0vw;
-  font-weight: 700;
-}
-
-#works-section-1-year-text::after,
-#works-section-2-year-text::after,
-#works-section-3-year-text::after,
-#works-section-4-year-text::after {
-  color: #7a869a;
-  font-size: 3.3vw;
-  line-height: 0vw;
-  font-weight: 700;
-}
-
-#works-section-1-client-text::after,
-#works-section-2-client-text::after,
-#works-section-3-client-text::after,
-#works-section-4-client-text::after {
   content: "CANOPY";
 }
 
@@ -591,14 +565,21 @@ ul {
 #works-section-2-role-text::after,
 #works-section-3-role-text::after,
 #works-section-4-role-text::after {
+  color: #7a869a;
+  font-size: 3.3vw;
+  line-height: 0vw;
+  font-weight: 700;
   content: "Back End Dev";
 }
 
 #works-section-1-year-text::after,
 #works-section-2-year-text::after,
 #works-section-3-year-text::after,
-#works-section-4-year-text::after,
- {
+#works-section-4-year-text::after, {
+  color: #7a869a;
+  font-size: 3.3vw;
+  line-height: 0vw;
+  font-weight: 700;
   content: "2015";
 }
 
@@ -735,7 +716,7 @@ ul {
 /* About Myself */
 #about-myself-base {
   width: 100%;
-  aspect-ratio: 375 / 1125.15;
+  aspect-ratio: 375 / 1125;
   top: 64.805914%;
   position: absolute;
   border-top-right-radius: 23vw;
@@ -744,7 +725,7 @@ ul {
 
 #about-myself {
   width: 100%;
-  aspect-ratio: 375 / 1125.15;
+  aspect-ratio: 375 / 1125;
   top: 64.805914%;
   position: absolute;
   border-top-right-radius: 23vw;
@@ -839,7 +820,7 @@ ul {
 
 #about-myself-skill-list {
   width: 87.2%;
-  aspect-ratio: 327 / 464.15;
+  aspect-ratio: 327 / 464;
   top: 12%;
   left: 6.4%;
   position: relative;
@@ -847,7 +828,7 @@ ul {
 
 #about-myself-skill-list-frame-12 {
   width: 100%;
-  aspect-ratio: 327 / 320.15;
+  aspect-ratio: 327 / 320;
 }
 
 #about-myself-skill-list-frame-8 {
@@ -915,7 +896,7 @@ ul {
 
 #about-myself-skill-list-language-list {
   width: 100%;
-  aspect-ratio: 327 / 248.15;
+  aspect-ratio: 327 / 248;
   top: -2.5%;
   left: -4%;
   position: relative;
@@ -927,7 +908,7 @@ ul {
 
 .about-myself-skill-list {
   width: 92%;
-  aspect-ratio: 303 / 66.72;
+  aspect-ratio: 303 / 66;
   border-radius: 2vw;
   background: #f7f7f9;
 }
@@ -956,7 +937,7 @@ ul {
   left: 3.4%;
   position: relative;
   border-radius: 50%;
- }
+}
 
 #about-myself-skill-list-icon-1 {
   background-image: url("../images/Ellipse 3.png");
@@ -1031,7 +1012,6 @@ ul {
   display: grid;
   align-items: center;
   text-align: center;
-  flex-grow: none;
 }
 
 #contact-form-data-h1 {
@@ -2222,7 +2202,6 @@ ul {
     display: grid;
     align-items: center;
     text-align: center;
-    flex-grow: none;
   }
 
   #contact-form-data-h1 {
