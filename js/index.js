@@ -61,7 +61,7 @@ function myFunction() {
   button.style['background-size'] = 'cover';
   button.style['background-position'] = 'center';
   button.style['z-index'] = '5';
-  button.onclick = function() { myFunction2() }
+  button.onclick = function() { myFunction2() };
 
   menu.appendChild(button);
 
@@ -115,9 +115,9 @@ function myFunction() {
   buttonAbout.appendChild(document.createTextNode('About'));
   buttonContact.appendChild(document.createTextNode('Contact'));
 
-  buttonPortfolio.onclick = function() { portfolioClick() }
-  buttonAbout.onclick = function() { aboutClick() }
-  buttonContact.onclick = function() { contactClick() }
+  buttonPortfolio.onclick = function() { portfolioClick() };
+  buttonAbout.onclick = function() { aboutClick() };
+  buttonContact.onclick = function() { contactClick() };
 
   navbar.appendChild(buttonPortfolio);
   navbar.appendChild(buttonAbout);
