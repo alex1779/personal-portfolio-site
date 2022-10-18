@@ -30,13 +30,10 @@ function contactClick() {
 }
 
 function myFunction() {
-
   const container = document.querySelector('#container');
-
   document.querySelector('#icon-button-button').style.display = 'none';
   document.querySelector('#div-logo').style.display = 'none';
   document.querySelector('#headline').style.display = 'none';
-
   const menu = document.createElement('div');
   menu.id = 'mobile-menu';
   menu.style.width = '100%';
@@ -46,10 +43,8 @@ function myFunction() {
   menu.style.top = '0';
   menu.style.left = '0';
   menu.style['mix-blend-mode'] = 'multiply';
-
   container.appendChild(menu);
-
-  let button = document.createElement('button');
+  const button = document.createElement('button');
   button.id = 'mobile-menu-button';
   button.style.position = 'absolute';
   button.style.width = '6.4%';
@@ -61,26 +56,21 @@ function myFunction() {
   button.style['background-size'] = 'cover';
   button.style['background-position'] = 'center';
   button.style['z-index'] = '5';
-  button.onclick = function() { myFunction2() };
-
+  button.onclick = function() { myFunction2(); };
   menu.appendChild(button);
-
   const navbar = document.createElement('nav');
-  let buttonPortfolio = document.createElement('button');
-  let buttonAbout = document.createElement('button');
-  let buttonContact = document.createElement('button');
-
+  const buttonPortfolio = document.createElement('button');
+  const buttonAbout = document.createElement('button');
+  const buttonContact = document.createElement('button');
   navbar.style.position = 'absolute';
   navbar.style['aspect-ratio'] = '351 / 184';
   navbar.style.width = '93.6%';
   navbar.style.top = '2%';
   navbar.style.left = '3.2%';
-
   navbar.style.display = 'flex';
   navbar.style['flex-direction'] = 'column';
   navbar.style['align-items'] = 'center';
   navbar.style['justify-content'] = 'space-between';
-
   buttonPortfolio.style['aspect-ratio'] = '251 / 24';
   buttonPortfolio.style.width = '90%';
   buttonPortfolio.style.background = 'transparent';
@@ -90,7 +80,6 @@ function myFunction() {
   buttonPortfolio.style['line-height'] = '1.5vw';
   buttonPortfolio.style['text-align'] = 'left';
   buttonPortfolio.style.border = 'none';
-
   buttonAbout.style['aspect-ratio'] = '251 / 24';
   buttonAbout.style.width = '90%';
   buttonAbout.style.background = 'transparent';
@@ -100,7 +89,6 @@ function myFunction() {
   buttonAbout.style['line-height'] = '1.5vw';
   buttonAbout.style['text-align'] = 'left';
   buttonAbout.style.border = 'none';
-
   buttonContact.style['aspect-ratio'] = '251 / 24';
   buttonContact.style.width = '90%';
   buttonContact.style.background = 'transparent';
@@ -110,18 +98,14 @@ function myFunction() {
   buttonContact.style['line-height'] = '1.5vw';
   buttonContact.style['text-align'] = 'left';
   buttonContact.style.border = 'none';
-
   buttonPortfolio.appendChild(document.createTextNode('Portfolio'));
   buttonAbout.appendChild(document.createTextNode('About'));
   buttonContact.appendChild(document.createTextNode('Contact'));
-
-  buttonPortfolio.onclick = function() { portfolioClick() };
-  buttonAbout.onclick = function() { aboutClick() };
-  buttonContact.onclick = function() { contactClick() };
-
+  buttonPortfolio.onclick = function() { portfolioClick(); };
+  buttonAbout.onclick = function() { aboutClick(); };
+  buttonContact.onclick = function() { contactClick(); };
   navbar.appendChild(buttonPortfolio);
   navbar.appendChild(buttonAbout);
   navbar.appendChild(buttonContact);
   menu.appendChild(navbar);
-
 }
