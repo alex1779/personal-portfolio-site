@@ -1,12 +1,19 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-# My Portfolio
+## My Portfolio
 
 > Description the project.
 > This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
 > In this part of the project I designed the Hamburguer Menu, I added the navbar to it.
 
+## Getting Started
+### Setting up this project locall
+
+* Clone the repo to you local repo. maintain the directory pattern of the folders
+* Open the  index.html file in your browser.
+
+🎉Congratulations you're done!✨
 
 ## Project Tasks List (Working-in-progress)
 
