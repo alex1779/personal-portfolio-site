@@ -2,9 +2,9 @@ function myFunction() {
 
   const container = document.querySelector('#container');
 
-  document.querySelector('#icon-button-button').style.display = "none";
-  document.querySelector('#div-logo').style.display = "none";
-  document.querySelector('#headline').style.display = "none";
+  document.querySelector('#icon-button-button').style.display = 'none';
+  document.querySelector('#div-logo').style.display = 'none';
+  document.querySelector('#headline').style.display = 'none';
 
   const menu = document.createElement('div');
   menu.id = 'mobile-menu';
@@ -96,32 +96,32 @@ function myFunction() {
 }
 
 function myFunction2() {
-  document.querySelector('#mobile-menu').style.display = "none";
-  document.querySelector('#icon-button-button').style.display = "flex";
-  document.querySelector('#div-logo').style.display = "flex";
-  document.querySelector('#headline').style.display = "block";
+  document.querySelector('#mobile-menu').style.display = 'none';
+  document.querySelector('#icon-button-button').style.display = 'flex';
+  document.querySelector('#div-logo').style.display = 'flex';
+  document.querySelector('#headline').style.display = 'block';
 }
 
 function portfolioClick() {
-  document.querySelector('#mobile-menu').style.display = "none";
-  document.querySelector('#icon-button-button').style.display = "flex";
-  document.querySelector('#div-logo').style.display = "flex";
-  document.querySelector('#headline').style.display = "block";
+  document.querySelector('#mobile-menu').style.display = 'none';
+  document.querySelector('#icon-button-button').style.display = 'flex';
+  document.querySelector('#div-logo').style.display = 'flex';
+  document.querySelector('#headline').style.display = 'block';
   document.querySelector('#works-section-div1').scrollIntoView();
 }
 
 function aboutClick() {
-  document.querySelector('#mobile-menu').style.display = "none";
-  document.querySelector('#icon-button-button').style.display = "flex";
-  document.querySelector('#div-logo').style.display = "flex";
-  document.querySelector('#headline').style.display = "block";
+  document.querySelector('#mobile-menu').style.display = 'none';
+  document.querySelector('#icon-button-button').style.display = 'flex';
+  document.querySelector('#div-logo').style.display = 'flex';
+  document.querySelector('#headline').style.display = 'block';
   document.querySelector('#about-myself').scrollIntoView();
 }
 
 function contactClick() {
-  document.querySelector('#mobile-menu').style.display = "none";
-  document.querySelector('#icon-button-button').style.display = "flex";
-  document.querySelector('#div-logo').style.display = "flex";
-  document.querySelector('#headline').style.display = "block";
+  document.querySelector('#mobile-menu').style.display = 'none';
+  document.querySelector('#icon-button-button').style.display = 'flex';
+  document.querySelector('#div-logo').style.display = 'flex';
+  document.querySelector('#headline').style.display = 'block';
   document.querySelector('#contact-form-data-h1').scrollIntoView();
 }
