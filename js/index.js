@@ -1,113 +1,63 @@
-function myFunction2() {
-  document.querySelector('#mobile-menu').style.display = 'none';
+function restoreView() {
+  const element = document.getElementById("mobile-menu");
+  element.remove();
   document.querySelector('#icon-button-button').style.display = 'flex';
   document.querySelector('#div-logo').style.display = 'flex';
   document.querySelector('#headline').style.display = 'block';
+  document.querySelector('#div-logo').scrollIntoView();
 }
 
 function portfolioClick() {
-  document.querySelector('#mobile-menu').style.display = 'none';
-  document.querySelector('#icon-button-button').style.display = 'flex';
-  document.querySelector('#div-logo').style.display = 'flex';
-  document.querySelector('#headline').style.display = 'block';
+  restoreView()
   document.querySelector('#works-section-div1').scrollIntoView();
 }
 
 function aboutClick() {
-  document.querySelector('#mobile-menu').style.display = 'none';
-  document.querySelector('#icon-button-button').style.display = 'flex';
-  document.querySelector('#div-logo').style.display = 'flex';
-  document.querySelector('#headline').style.display = 'block';
+  restoreView()
   document.querySelector('#about-myself').scrollIntoView();
 }
 
 function contactClick() {
-  document.querySelector('#mobile-menu').style.display = 'none';
-  document.querySelector('#icon-button-button').style.display = 'flex';
-  document.querySelector('#div-logo').style.display = 'flex';
-  document.querySelector('#headline').style.display = 'block';
+  restoreView()
   document.querySelector('#contact-form-data-h1').scrollIntoView();
 }
 
-function myFunction() {
-  const container = document.querySelector('#container');
+function shutdownBackground() {
   document.querySelector('#icon-button-button').style.display = 'none';
   document.querySelector('#div-logo').style.display = 'none';
   document.querySelector('#headline').style.display = 'none';
+}
+
+function hamburgClick() {
+  const container = document.querySelector('#container');
+  shutdownBackground()
   const menu = document.createElement('div');
   menu.id = 'mobile-menu';
-  menu.style.width = '100%';
-  menu.style.height = '100%';
-  menu.style.background = '#6070ff';
-  menu.style.position = 'absolute';
-  menu.style.top = '0';
-  menu.style.left = '0';
-  menu.style['mix-blend-mode'] = 'multiply';
+  menu.setAttribute('class', 'mobile-menu');
   container.appendChild(menu);
   const button = document.createElement('button');
   button.id = 'mobile-menu-button';
-  button.style.position = 'absolute';
-  button.style.width = '6.4%';
-  button.style['aspect-ratio'] = '1 / 1';
-  button.style.top = '1%';
-  button.style.left = '84.9%';
-  button.style.border = 'none';
-  button.style.background = 'url("images/Icon - Cancel.svg")';
-  button.style['background-size'] = 'cover';
-  button.style['background-position'] = 'center';
-  button.style['z-index'] = '5';
-  button.onclick = function () { myFunction2(); };
+  button.setAttribute('class', 'mobile-menu-button-close');
+  button.onclick = function () { restoreView(); };
   menu.appendChild(button);
   const navbar = document.createElement('nav');
   const buttonPortfolio = document.createElement('button');
   const buttonAbout = document.createElement('button');
   const buttonContact = document.createElement('button');
-  navbar.style.position = 'absolute';
-  navbar.style['aspect-ratio'] = '351 / 184';
-  navbar.style.width = '93.6%';
-  navbar.style.top = '2%';
-  navbar.style.left = '3.2%';
-  navbar.style.display = 'flex';
-  navbar.style['flex-direction'] = 'column';
-  navbar.style['align-items'] = 'center';
-  navbar.style['justify-content'] = 'space-between';
-  buttonPortfolio.style['aspect-ratio'] = '251 / 24';
-  buttonPortfolio.style.width = '90%';
-  buttonPortfolio.style.background = 'transparent';
-  buttonPortfolio.style.color = 'white';
-  buttonPortfolio.style['font-size'] = '9.5vw';
-  buttonPortfolio.style['font-weight'] = '600';
-  buttonPortfolio.style['line-height'] = '1.5vw';
-  buttonPortfolio.style['text-align'] = 'left';
-  buttonPortfolio.style.border = 'none';
-  buttonAbout.style['aspect-ratio'] = '251 / 24';
-  buttonAbout.style.width = '90%';
-  buttonAbout.style.background = 'transparent';
-  buttonAbout.style.color = 'white';
-  buttonAbout.style['font-size'] = '9.5vw';
-  buttonAbout.style['font-weight'] = '600';
-  buttonAbout.style['line-height'] = '1.5vw';
-  buttonAbout.style['text-align'] = 'left';
-  buttonAbout.style.border = 'none';
-  buttonContact.style['aspect-ratio'] = '251 / 24';
-  buttonContact.style.width = '90%';
-  buttonContact.style.background = 'transparent';
-  buttonContact.style.color = 'white';
-  buttonContact.style['font-size'] = '9.5vw';
-  buttonContact.style['font-weight'] = '600';
-  buttonContact.style['line-height'] = '1.5vw';
-  buttonContact.style['text-align'] = 'left';
-  buttonContact.style.border = 'none';
+  navbar.setAttribute('class', 'mobile-menu-navbar');
+  buttonPortfolio.setAttribute('class', 'mobile-menu-buttons');
+  buttonAbout.setAttribute('class', 'mobile-menu-buttons');
+  buttonContact.setAttribute('class', 'mobile-menu-buttons');
   buttonPortfolio.appendChild(document.createTextNode('Portfolio'));
   buttonAbout.appendChild(document.createTextNode('About'));
   buttonContact.appendChild(document.createTextNode('Contact'));
-  buttonPortfolio.onclick = function () { portfolioClick(); };
-  buttonAbout.onclick = function () { aboutClick(); };
-  buttonContact.onclick = function () { contactClick(); };
+  buttonPortfolio.addEventListener('click',portfolioClick);
+  buttonAbout.addEventListener('click',aboutClick);
+  buttonContact.addEventListener('click',contactClick);
   navbar.appendChild(buttonPortfolio);
   navbar.appendChild(buttonAbout);
   navbar.appendChild(buttonContact);
   menu.appendChild(navbar);
 }
 const menuhamb = document.querySelector('#icon-button-button');
-menuhamb.onclick = function () { myFunction(); };
+menuhamb.onclick = function () { hamburgClick(); };
