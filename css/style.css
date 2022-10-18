@@ -38,7 +38,6 @@ ul {
 #app-bar-compact {
   width: 100%;
   aspect-ratio: 375 / 92;
-  z-index: 3;
   font-size: 100%;
   background: white;
 }
@@ -76,7 +75,6 @@ ul {
   align-items: center;
   justify-content: center;
   border: none;
-  z-index: 10;
   cursor: pointer;
 }
 
@@ -139,7 +137,6 @@ ul {
 #headline {
   width: 100%;
   aspect-ratio: 375 / 625;
-  z-index: 2;
   margin: 0;
   background: white;
   border-bottom-left-radius: 20vw;
@@ -248,7 +245,6 @@ ul {
   aspect-ratio: 462 / 587;
   top: 1.922365%;
   position: absolute;
-  z-index: 10;
   background: url("../images/header-shapes mobile.svg");
   background-size: auto;
   background-position: center;
