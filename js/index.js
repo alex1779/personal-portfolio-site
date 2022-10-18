@@ -1,3 +1,5 @@
+const menuhamb = document.querySelector('#icon-button-button');
+menuhamb.onclick = function () { myFunction(); };
 function myFunction2() {
   document.querySelector('#mobile-menu').style.display = 'none';
   document.querySelector('#icon-button-button').style.display = 'flex';
