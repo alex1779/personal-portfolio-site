@@ -8,7 +8,7 @@
 > In this part of the project I designed the Hamburguer Menu, I added the navbar to it.
 
 ## Getting Started
-### Setting up this project locall
+### Setting up this project locally
 
 * Clone the repo to you local repo. maintain the directory pattern of the folders
 * Open the  index.html file in your browser.
