@@ -1,11 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-## My Portfolio
+# Portfolio
 
-> Description the project.
+## Description
 > This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
-> In this part of the project I designed the Hamburguer Menu, I added the navbar to it.
+> For this milestone of your portfolio website, I will implement a popup that includes the project details on both desktop and mobile. To do this, information about the projects is stored in a JavaScript object.
 
 ## Getting Started
 ### Setting up this project locally
