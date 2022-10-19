@@ -1,5 +1,5 @@
 function restoreView() {
-  const element = document.getElementById("mobile-menu");
+  const element = document.getElementById('mobile-menu');
   element.remove();
   document.querySelector('#icon-button-button').style.display = 'flex';
   document.querySelector('#div-logo').style.display = 'flex';
@@ -8,17 +8,17 @@ function restoreView() {
 }
 
 function portfolioClick() {
-  restoreView()
+  restoreView();
   document.querySelector('#works-section-div1').scrollIntoView();
 }
 
 function aboutClick() {
-  restoreView()
+  restoreView();
   document.querySelector('#about-myself').scrollIntoView();
 }
 
 function contactClick() {
-  restoreView()
+  restoreView();
   document.querySelector('#contact-form-data-h1').scrollIntoView();
 }
 
@@ -30,7 +30,7 @@ function shutdownBackground() {
 
 function hamburgClick() {
   const container = document.querySelector('#container');
-  shutdownBackground()
+  shutdownBackground();
   const menu = document.createElement('div');
   menu.id = 'mobile-menu';
   menu.setAttribute('class', 'mobile-menu');
@@ -51,9 +51,9 @@ function hamburgClick() {
   buttonPortfolio.appendChild(document.createTextNode('Portfolio'));
   buttonAbout.appendChild(document.createTextNode('About'));
   buttonContact.appendChild(document.createTextNode('Contact'));
-  buttonPortfolio.addEventListener('click',portfolioClick);
-  buttonAbout.addEventListener('click',aboutClick);
-  buttonContact.addEventListener('click',contactClick);
+  buttonPortfolio.addEventListener('click', portfolioClick);
+  buttonAbout.addEventListener('click', aboutClick);
+  buttonContact.addEventListener('click', contactClick);
   navbar.appendChild(buttonPortfolio);
   navbar.appendChild(buttonAbout);
   navbar.appendChild(buttonContact);
