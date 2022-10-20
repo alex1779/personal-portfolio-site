@@ -571,7 +571,7 @@ ul {
 #works-section-1-year-text::after,
 #works-section-2-year-text::after,
 #works-section-3-year-text::after,
-#works-section-4-year-text::after, {
+#works-section-4-year-text::after {
   color: #7a869a;
   font-size: 3.3vw;
   line-height: 0vw;
@@ -2559,7 +2559,6 @@ ul {
     background-size: contain, cover;
     background-position: inherit;
   }
-
 
   /* work details */
   .work-details {

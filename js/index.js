@@ -173,20 +173,19 @@ function createWorkDetails() {
 }
 
 function work1Click() {
-  // alert("Work 2");
   createWorkDetails();
 }
 
 function work2Click() {
-  alert('Work 2');
+  createWorkDetails();
 }
 
 function work3Click() {
-  alert('Work 3');
+  createWorkDetails();
 }
 
 function work4Click() {
-  alert('Work 4');
+  createWorkDetails();
 }
 
 function initialExec() {
