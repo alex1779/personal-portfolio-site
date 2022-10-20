@@ -1178,6 +1178,177 @@ ul {
   border: none;
 }
 
+/* work details */
+.work-details {
+  width: 100%;
+  aspect-ratio: 375 / 812;
+  background: #c1c7d0;
+  top: 0;
+  left: 0;
+  mix-blend-mode: normal;
+  background-image: url("../images/Template 1-Mobile-Detail.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-works {
+  position: absolute;
+  width: 91.46%;
+  aspect-ratio: 343 / 713;
+  background: white;
+  top: 6.8%;
+  left: 4.2666%;
+  border-radius: 4vw;
+}
+
+.card-works-snapshot {
+  position: absolute;
+  width: 90.8%;
+  aspect-ratio: 311 / 220;
+  top: 15.5%;
+  left: 4.6%;
+  border-radius: 2vw;
+}
+
+.card-works-close {
+  position: absolute;
+  width: 11%;
+  aspect-ratio: 1 / 1;
+  top: 2.2%;
+  left: 84%;
+  background: transparent;
+  border: none;
+  background-image: url("../images/works_details_close.svg");
+  background-size: cover;
+  background-position: center;
+}
+
+.card-works-project-title::after {
+  position: absolute;
+  top: 2.2%;
+  left: 4.1%;
+  background: transparent;
+  font-weight: 700;
+  font-size: 8.7vw;
+  line-height: 11.8vw;
+  color: #344563;
+  content: "Tonic";
+}
+
+.card-works-frame-2 {
+  position: absolute;
+  width: 69%;
+  aspect-ratio: 238 / 32;
+  top: 9.7%;
+  left: 4.4%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background: transparent;
+}
+
+.card-works-frame-2-dot {
+  width: 3.8%;
+  aspect-ratio: 1 / 1;
+  position: relative;
+  border-radius: 50%;
+  background: #c1c7d0;
+}
+
+.card-works-frame-2-client::after {
+  color: #344563;
+  font-size: 3.3vw;
+  line-height: 0vw;
+  font-weight: 600;
+  content: "CANOPY";
+}
+
+.card-works-frame-2-role::after {
+  color: #7a869a;
+  font-size: 3.3vw;
+  line-height: 0vw;
+  font-weight: 600;
+  content: "Back End Dev";
+}
+
+.card-works-frame-2-year::after {
+  color: #7a869a;
+  font-size: 3.3vw;
+  line-height: 0vw;
+  font-weight: 600;
+  content: "2015";
+}
+
+.card-works-description::after {
+  position: absolute;
+  width: 90%;
+  aspect-ratio: 311 / 220;
+  background: white;
+  top: 48%;
+  left: 4.6%;
+  font-weight: 400;
+  font-size: 3.97vw;
+  line-height: 6.45vw;
+  color: #344563;
+  content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent";
+}
+
+.card-works-technologies {
+  position: absolute;
+  height: 3.336%;
+  aspect-ratio: 203 / 24;
+  top: 79.9%;
+  left: 4.6%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.card-works-technologies-item {
+  height: 100%;
+  font-weight: 500;
+  font-size: 3.5vw;
+  line-height: 6.45vw;
+  color: #6070ff;
+  border-radius: 1.5vw;
+  background: #ebebff;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+.card-works-see-live {
+  position: absolute;
+  height: 6.7%;
+  aspect-ratio: 136 / 48;
+  top: 90.4%;
+  left: 7.4%;
+  font-weight: 500;
+  font-size: 4.8vw;
+  line-height: 10vw;
+  border-radius: 2vw;
+  background: #fff;
+  color: #6070ff;
+  cursor: pointer;
+  border: 0.3vw solid #396df2;
+}
+
+.card-works-see-source {
+  position: absolute;
+  height: 6.7%;
+  aspect-ratio: 146 / 48;
+  top: 90.4%;
+  left: 50.6%;
+  border-radius: 2vw;
+  background: #fff;
+  color: #6070ff;
+  cursor: pointer;
+  border: 0.3vw solid #396df2;
+}
+
 /* desktop version */
 @media (min-width: 1000px) and (orientation: landscape) {
   /* For desktop: */
@@ -2387,5 +2558,178 @@ ul {
     background: url("../images/Header bg.svg");
     background-size: contain, cover;
     background-position: inherit;
+  }
+
+
+  /* work details */
+  .work-details {
+    width: 100%;
+    aspect-ratio: 1440 / 1577;
+    background: #c1c7d0;
+    top: 0;
+    left: 0;
+    mix-blend-mode: normal;
+    background-image: url("../images/Template 1- Detail.jpg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card-works {
+    position: absolute;
+    width: 96.2%;
+    aspect-ratio: 1156 / 1163;
+    background: white;
+    top: 2.9%;
+    left: 1.9%;
+    border-radius: 1.5vw;
+  }
+
+  .card-works-snapshot {
+    position: absolute;
+    width: 96%;
+    aspect-ratio: 1108 / 586;
+    top: 11.8%;
+    left: 2%;
+    border-radius: 0.75vw;
+  }
+
+  .card-works-close {
+    position: absolute;
+    width: 4%;
+    aspect-ratio: 1 / 1;
+    top: 2%;
+    left: 94.2%;
+    background: transparent;
+    border: none;
+    background-image: url("../images/works_details_close.svg");
+    background-size: cover;
+    background-position: center;
+  }
+
+  .card-works-project-title::after {
+    position: absolute;
+    top: 2.9%;
+    left: 2%;
+    background: transparent;
+    font-weight: 700;
+    font-size: 3.3vw;
+    line-height: 3vw;
+    color: #091e42;
+    content: "Tonic";
+  }
+
+  .card-works-frame-2 {
+    position: absolute;
+    width: 24%;
+    aspect-ratio: 260 / 36;
+    top: 6.2%;
+    left: 2%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+  }
+
+  .card-works-frame-2-dot {
+    width: 3%;
+    aspect-ratio: 1 / 1;
+    position: relative;
+    border-radius: 50%;
+    background: #c1c7d0;
+  }
+
+  .card-works-frame-2-client::after {
+    color: #344563;
+    font-size: 1.3vw;
+    line-height: 0vw;
+    font-weight: 600;
+    content: "CANOPY";
+  }
+
+  .card-works-frame-2-role::after {
+    color: #7a869a;
+    font-size: 1.3vw;
+    line-height: 0vw;
+    font-weight: 600;
+    content: "Back End Dev";
+  }
+
+  .card-works-frame-2-year::after {
+    color: #7a869a;
+    font-size: 1.3vw;
+    line-height: 0vw;
+    font-weight: 600;
+    content: "2015";
+  }
+
+  .card-works-description::after {
+    position: absolute;
+    width: 66.1%;
+    aspect-ratio: 778 / 382;
+    background: white;
+    top: 66.9%;
+    left: 2%;
+    font-weight: 400;
+    font-size: 1.33vw;
+    line-height: 2.53vw;
+    color: #344563;
+    content: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea";
+  }
+
+  .card-works-technologies {
+    position: absolute;
+    height: 2.1%;
+    aspect-ratio: 203 / 24;
+    top: 66.5%;
+    left: 71.5%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 0;
+  }
+
+  .card-works-technologies-item {
+    height: 100%;
+    font-weight: 500;
+    font-size: 1vw;
+    line-height: 3vw;
+    color: #6070ff;
+    border-radius: 0.5vw;
+    background: #ebebff;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-left: 1vw;
+    border-right: 1vw;
+    text-align: center;
+    margin: 1%;
+    box-sizing: border-box;
+  }
+
+  .card-works-see-live {
+    position: absolute;
+    height: 3.4%;
+    aspect-ratio: 142 / 40;
+    top: 76%;
+    left: 71.9%;
+    font-weight: 500;
+    font-size: 4.8vw;
+    line-height: 10vw;
+    border-radius: 0.75vw;
+    background: #fff;
+    color: #6070ff;
+    cursor: pointer;
+    border: 0.15vw solid #396df2;
+  }
+
+  .card-works-see-source {
+    position: absolute;
+    height: 3.4%;
+    aspect-ratio: 142 / 40;
+    top: 76%;
+    left: 85.2%;
+    border-radius: 0.75vw;
+    background: #fff;
+    color: #6070ff;
+    cursor: pointer;
+    border: 0.15vw solid #396df2;
   }
 }
