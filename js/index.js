@@ -59,7 +59,13 @@ function restoreView2() {
   const element = document.getElementById('work-details');
   element.remove();
   const container = document.querySelector('#container');
-  container.style['aspect-ratio'] = '375 / 5410';
+
+  if (window.screen.width < 768) {
+    container.style['aspect-ratio'] = '375 / 5410';
+  } else {
+    container.style['aspect-ratio'] = '1440 / 5125';
+  }
+
   document.querySelector('#app-bar-compact').style.display = 'block';
   document.querySelector('#headline').style.display = 'block';
   document.querySelector('#works-section').style.display = 'grid';
