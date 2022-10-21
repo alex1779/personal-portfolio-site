@@ -24,7 +24,7 @@
 - [x] Application deploy
 - [x] Evaluate accessibility
 - [x] Mobile Menu
-
+- [x] Details modal
 
 ## Page Link
 
