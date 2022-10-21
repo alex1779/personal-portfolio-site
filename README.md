@@ -5,7 +5,10 @@
 
 ## Description
 > This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
-> For this milestone of your portfolio website, I will implement a popup that includes the project details on both desktop and mobile. To do this, information about the projects is stored in a JavaScript object.
+
+> For this milestone of your portfolio website, I will implement a client-side validation of the data in the contact form before submission. The content of the email field must be in lowercase.
+
+
 
 ## Getting Started
 ### Setting up this project locally
@@ -24,6 +27,8 @@
 - [x] Application deploy
 - [x] Evaluate accessibility
 - [x] Mobile Menu
+- [x] Validate contact form
+
 
 ## Page Link
 
