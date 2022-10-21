@@ -5,7 +5,7 @@
 
 > Description the project.
 > This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
-> In this part of the project I designed the Hamburguer Menu, I added the navbar to it.
+> For this milestone of your portfolio website, I will implement a client-side validation of the data in the contact form before submission. The content of the email field must be in lowercase.
 
 ## Getting Started
 ### Setting up this project locally
@@ -25,7 +25,6 @@
 - [x] Evaluate accessibility
 - [x] Mobile Menu
 - [x] Validate contact form
-- [x] Preserve data in the browser
 
 ## Page Link
 
