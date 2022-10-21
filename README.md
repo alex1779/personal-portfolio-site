@@ -24,7 +24,8 @@
 - [x] Application deploy
 - [x] Evaluate accessibility
 - [x] Mobile Menu
-
+- [x] Validate contact form
+- [x] Preserve data in the browser
 
 ## Page Link
 
