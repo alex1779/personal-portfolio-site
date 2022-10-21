@@ -1,11 +1,14 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 
-## My Portfolio
+# Portfolio
 
-> Description the project.
+## Description
 > This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
+
 > For this milestone of your portfolio website, I will implement a client-side validation of the data in the contact form before submission. The content of the email field must be in lowercase.
+
+
 
 ## Getting Started
 ### Setting up this project locally
@@ -26,10 +29,10 @@
 - [x] Mobile Menu
 - [x] Validate contact form
 
+
 ## Page Link
 
-[Online Version](https://alex1779.github.io/personal-portfolio-site/)
-
+[live Demo](https://alex1779.github.io/personal-portfolio-site/)
 
 ## Built With
 
