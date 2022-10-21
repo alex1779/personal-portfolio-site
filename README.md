@@ -25,11 +25,9 @@
 - [x] Evaluate accessibility
 - [x] Mobile Menu
 
-
 ## Page Link
 
-[Online Version](https://alex1779.github.io/personal-portfolio-site/)
-
+[live Demo](https://alex1779.github.io/personal-portfolio-site/)
 
 ## Built With
 
