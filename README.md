@@ -4,9 +4,9 @@
 # Portfolio
 
 ## Description
-> This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
+ This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
 
-> For this final milestone of my portfolio website, I will save the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
+ For this final milestone of my portfolio website, I will save the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 
 
