@@ -4,9 +4,9 @@
 # Portfolio
 
 ## Description
-> This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
+ This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
 
-> For this final milestone of my portfolio website, I will save the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
+ For this final milestone of my portfolio website, I will save the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 
 
@@ -20,16 +20,17 @@
 
 ## Project Tasks List (Working-in-progress)
 
-- [x] Setting up the initial project structure
-- [x] mobile version skeleton
-- [x] Contact form
-- [x] Desktop version
-- [x] Application deploy
-- [x] Evaluate accessibility
-- [x] Mobile Menu
-- [x] Details Popup Window
-- [x] Validate Contact Form
-- [x] Preserve Data in Browser
+- [x] Setting up the initial project structure ✔️
+- [x] mobile version skeleton ✔️
+- [x] Contact form ✔️
+- [x] Desktop version ✔️
+- [x] Application deploy ✔️
+- [x] Evaluate accessibility ✔️
+- [x] Mobile Menu ✔️
+- [x] Details Popup Window ✔️
+- [x] Validate Contact Form ✔️
+- [x] Preserve Data in Browser ✔️
+
 
 ## Page Link
 
