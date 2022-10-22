@@ -202,10 +202,14 @@ function eraseAlert() {
 }
 
 function changeInput() {
-  const inputName = document.getElementById('survey-form-name-input').value;
-  const inputEmail = document.getElementById('survey-form-email-input').value;
-  const inputMessage = document.getElementById('survey-form-message-input').value;
-  const dataStorage = { name: inputName, email: inputEmail, message: inputMessage };
+  const inputName = document.getElementById('survey-form-name-input');
+  const inputEmail = document.getElementById('survey-form-email-input');
+  const inputMessage = document.getElementById('survey-form-message-input');
+  const dataStorage = {
+    name: inputName.value,
+    email: inputEmail.value,
+    message: inputMessage.value,
+  };
   localStorage.setItem('array', JSON.stringify(dataStorage));
 }
 
