@@ -201,6 +201,14 @@ function eraseAlert() {
   message.innerHTML = '';
 }
 
+function changeInput() {
+  const inputName = document.getElementById('survey-form-name-input').value;
+  const inputEmail = document.getElementById('survey-form-email-input').value;
+  const inputMessage = document.getElementById('survey-form-message-input').value;
+  const dataStorage = { name: inputName, email: inputEmail, message: inputMessage };
+  localStorage.setItem('array', JSON.stringify(dataStorage));
+}
+
 function initialExec() {
   const worksSection = document.getElementById('works-section');
   worksSection.innerHTML += bigString;
@@ -217,6 +225,15 @@ function initialExec() {
   inputEmail.addEventListener('focus', eraseAlert);
   const inputMessage = document.getElementById('survey-form-message-input');
   inputMessage.addEventListener('focus', eraseAlert);
+
+  const obj = JSON.parse(localStorage.getItem('array'));
+  inputName.value = obj.name;
+  inputEmail.value = obj.email;
+  inputMessage.value = obj.message;
+
+  inputName.addEventListener('input', changeInput);
+  inputEmail.addEventListener('input', changeInput);
+  inputMessage.addEventListener('input', changeInput);
 
   const message = document.getElementById('message-alert');
   message.innerHTML = '';
