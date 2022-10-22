@@ -29,7 +29,7 @@
 - [x] Mobile Menu ✔️
 - [x] Details Popup Window ✔️
 - [x] Validate Contact Form ✔️
-- [x] Preserve Data in Browser
+- [x] Preserve Data in Browser ✔️
 
 ## Page Link
 
