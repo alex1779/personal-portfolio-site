@@ -20,14 +20,14 @@
 
 ## Project Tasks List (Working-in-progress)
 
-- [x] Setting up the initial project structure
-- [x] mobile version skeleton
-- [x] Contact form
-- [x] Desktop version
-- [x] Application deploy
-- [x] Evaluate accessibility
-- [x] Mobile Menu
-- [x] Validate contact form
+- [x] Setting up the initial project structure ✔️
+- [x] mobile version skeleton ✔️
+- [x] Contact form ✔️
+- [x] Desktop version ✔️
+- [x] Application deploy ✔️
+- [x] Evaluate accessibility ✔️
+- [x] Mobile Menu ✔️
+- [x] Validate contact form ✔️
 
 
 ## Page Link
