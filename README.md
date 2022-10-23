@@ -4,9 +4,9 @@
 # Portfolio
 
 ## Description
-> This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
+ This project contains my personal information and all the projects I have built using HTML and CSS and Javascript.
 
-> For this milestone of your portfolio website, I will implement a client-side validation of the data in the contact form before submission. The content of the email field must be in lowercase.
+ For this final milestone of my portfolio website, I will save the form data in the local storage of the browser. That way when the user reloads the page the data they filled out in the form will be preserved.
 
 
 
@@ -27,7 +27,9 @@
 - [x] Application deploy ✔️
 - [x] Evaluate accessibility ✔️
 - [x] Mobile Menu ✔️
-- [x] Validate contact form ✔️
+- [x] Details Popup Window ✔️
+- [x] Validate Contact Form ✔️
+- [x] Preserve Data in Browser ✔️
 
 
 ## Page Link
