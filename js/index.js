@@ -63,7 +63,7 @@ function restoreView() {
 
 function restoreView2() {
   const element = document.getElementById('work-details');
-  element.remove();
+  
   const container = document.querySelector('#container');
 
   if (window.screen.width < 768) {
