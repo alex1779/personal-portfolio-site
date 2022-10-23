@@ -210,7 +210,7 @@ function changeInput() {
     email: inputEmail.value,
     message: inputMessage.value,
   };
-  localStorage.setItem('array', JSON.stringify(dataStorage));
+  localStorage.setItem('contactFormInput', JSON.stringify(dataStorage));
 }
 
 function initialExec() {
@@ -229,11 +229,6 @@ function initialExec() {
   inputEmail.addEventListener('focus', eraseAlert);
   const inputMessage = document.getElementById('survey-form-message-input');
   inputMessage.addEventListener('focus', eraseAlert);
-
-  const obj = JSON.parse(localStorage.getItem('array'));
-  inputName.value = obj.name;
-  inputEmail.value = obj.email;
-  inputMessage.value = obj.message;
 
   inputName.addEventListener('input', changeInput);
   inputEmail.addEventListener('input', changeInput);
@@ -304,6 +299,17 @@ function hamburgClick() {
   navbar.appendChild(buttonContact);
   menu.appendChild(navbar);
 }
+
+window.onload = () => {
+  initialExec();
+  let savedFormData = localStorage.getItem('contactFormInput');
+  savedFormData = JSON.parse(savedFormData);
+  if (savedFormData) {
+    document.getElementById('survey-form-name-input').value = savedFormData.name;
+    document.getElementById('survey-form-email-input').value = savedFormData.email;
+    document.getElementById('survey-form-message-input').value = savedFormData.message;
+  }
+};
 
 window.onresize = function () {
   const container = document.querySelector('#container');
